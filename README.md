@@ -11,7 +11,15 @@ You should be able to install `colorman` via [oh-my-fish](https://github.com/oh-
 $ omf install colorman
 ```
 
-Otherwise just download the `init.fish` script (possibly rename it `colorman.fish` and source it somewhere in your `config.fish`. Done :)
+Otherwise just download the `init.fish` script (possibly rename it `colorman.fish` and source it somewhere in your `config.fish`. 
+
+`omf` unfortunately doesn't allow start-hooks so you have to do this next:
+
+```console
+$ echo "source ~/.local/share/omf/pkg/colorman/init.fish" >> ~/.config/fish/config.fish`
+```
+
+Aaand Done 🙂
 
 ## Spelling
 

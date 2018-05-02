@@ -16,7 +16,7 @@ Otherwise just download the `init.fish` script (possibly rename it `colorman.fis
 `omf` unfortunately doesn't allow start-hooks so you have to do this next:
 
 ```console
-$ echo "source ~/.local/share/omf/pkg/colorman/init.fish" >> ~/.config/fish/config.fish`
+$ echo "source ~/.local/share/omf/pkg/colorman/init.fish" >> ~/.config/fish/config.fish
 ```
 
 Aaand Done 🙂
